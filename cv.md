@@ -1,6 +1,6 @@
 # **Nikita Sinelnikov**
 ### **Junior Frontend Developer**
-===
+****
 ### **Contacts**
 
 Phone: +7 776 0000 707
