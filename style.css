@@ -16,3 +16,38 @@ body {
 #photo {
     border-radius: 10%;
 }
+.header {
+    display: flex;
+    height: 102px;
+    border-radius: 16px 16px 16px 16px;
+    background: rgb(242, 244, 245);
+}
+.me {
+    background: rgb(242, 244, 245);
+    border-radius: 16px 16px 16px 16px;
+    display: flex;
+    width: 40%;
+    margin-top: 30px;
+}
+.my-name {
+    margin: 20px 0 0 20px;
+}
+h2 {
+    line-height: 50px;
+    font-size: 1em;
+}
+.nav {
+    margin: 20px 0 0 20px;
+    width: 100%;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
