@@ -21,17 +21,21 @@ body {
     height: 102px;
     border-radius: 16px 16px 16px 16px;
     background: rgb(242, 244, 245);
+    border: solid 1px black;
 }
 .main {
     display: flex;
     justify-content: flex-start;
 }
 .aside {
+    border: solid 1px black;
     margin-top: 25px;
+    background: rgb(242, 244, 245);
     border-radius: 16px 16px 16px 16px;
     width: 500px;
 }
 .article {
+    border: solid 1px black;
     margin-left: 25px;
     margin-top: 25px;
     border-radius: 16px 16px 16px 16px;
@@ -39,8 +43,6 @@ body {
     width: 100%;
 }
 .profile {
-    background: rgb(242, 244, 245);
-    border-radius: 16px 16px 16px 16px;
     display: flex;
 }
 .my-name {
@@ -65,14 +67,20 @@ body {
     text-decoration: none;
     font-size: 24px;
 }
+.nav-link:hover {
+    color: red;
+    transition: color 0.5s;
+}
 #contacts {
     background: rgb(242, 244, 245);
     border-radius: 16px 16px 16px 16px;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 #contacts h2 {
     padding-top: 10px;
-    text-align: center;
+    padding-left: 25px;
+    text-align: left;
 }
 .cont-list {
     list-style-type: none;
@@ -98,10 +106,102 @@ body {
     line-height: 25px;
     text-align: justify;
 }
+#skills {
+    margin-left: 10px;
+    height: 250px;
+    padding: 25px;
+    text-align: left;
+}
+.skills-item {
+    padding-top: 15px;
+    line-height: 25px;
+    margin-left: 20px;
+}
+#code-example {
+    margin-left: 10px;
+    height: 250px;
+    padding: 25px;
+    text-align: left;
+    padding-bottom: 300px;
+}
+#code-example h2 {
+    margin-bottom: 15px;
+}
+.code {
+    padding: 25px;
+    margin: 25px;
+    width: 500px;
+    background: rgb(143, 136, 136);
+}
+.code-block {
+    width: 700px;
+    padding-top: 0px;
+    background: rgb(255, 255, 255);
+}
+#code {
+    font-size: large;
+    font-weight: bold;
+}
+#courses {
+    margin-left: 10px;
+    height: 250px;
+    padding: 25px;
+    text-align: left;
+}
+.courses-list {
+    margin-left: 18px;
+    margin-top: 15px;
+}
+#courses a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+}
+#courses a:hover {
+    color: red;
+    transition: color 0.5s;
+}
+#languages {
+    margin-left: 10px;
+    height: 250px;
+    padding: 25px;
+    text-align: left;
+}
+.languages-list {
+    font-size: 20px;
+    line-height: 35px;
+    margin-left: 18px;
+    margin-top: 15px;
+}
+.footer {
+    margin-top: 25px;
+    display: flex;
+    height: 102px;
+    border-radius: 16px 16px 0 0;
+    background: rgb(242, 244, 245);
+    border: solid 1px black;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer p {
+    font-size: large;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.github {
+    margin-top: 25px;
+}
 hr {
 	margin: 20px 30px 20px 30px;
 	padding: 0;
 	height: 6px;
 	border: none;
 	background: linear-gradient(45deg, #333, #ddd);
+}
+.hr-fix {
+    margin-top: -50px;
 }
