@@ -11,11 +11,10 @@
 </head>
 <body>
     <div class="container">
-
         <header class="header">
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                     <li class="nav-item"><a href="" class="nav-link">About me</a></li>
                     <li class="nav-item"><a href="" class="nav-link">Skills</a></li>
                     <li class="nav-item"><a href="" class="nav-link">Code Example</a></li>
@@ -24,19 +23,39 @@
                 </ul>
             </nav>
         </header>
-        <div class="me">
-            <div class="my-photo">
-                <img id="photo" src="assets/img/photo_me.jpg" alt="my_photo" width="150px">
-            </div>
-            <div class="my-name">
-                <h1>Nikita Sinelnikov</h1>
-                <h2>Frontend Developer</h2>
-            </div>
-        </div>
         <main class="main">
-    
+            <aside class="aside">
+                <section class="profile">
+                    <div class="my-photo">
+                        <img id="photo" src="assets/img/photo_me.jpg" alt="my_photo" width="150px">
+                    </div>
+                    <div class="my-name">
+                        <h1>Nikita Sinelnikov</h1>
+                        <h3 id="spec">Frontend Developer</h3>
+                    </div>
+                </section>
+               
+                <section class="section" id="contacts">
+                    <h2>Contacts</h2>
+                    <ul class="cont-list">
+                        <li class="cont-item"><p>Phone: <span>+7 776 0000 707</span></p></li>
+                        <li class="cont-item"><p>E-mail: <span>saddlemaddle@mail.ru</span></p></li>
+                        <li class="cont-item"><p>Telegram: <span id="telegram">@saddlemaddle</span></p></li>
+                    </ul>
+                </section>
+            </aside>
+            <article class="article">
+                <section class="section" id="about-me">
+                    <h2>About me</h2>
+                    <p>As a young student with a passion for technology, I have always been motivated to become a programmer. From an early age, I was fascinated by the way that computers work and the endless possibilities that coding opens up. As I grew older, my interest in programming only continued to grow and I knew that I wanted to make it my career. One of the things that motivates me the most about becoming a programmer is the constantly evolving nature of the field. Technology is always changing and improving, and as a programmer, I would have the opportunity to work on exciting new projects and be at the forefront of technological advancements. I am constantly learning and growing as a programmer, and I love the challenge and sense of accomplishment that comes with it.</p>
+                </section>
+                <hr>
+                <section class="skills">
+                    <h2>Skills</h2>
+                    
+                </section>
+            </article>
         </main>
-
         <footer class="footer">
 
         </footer>
